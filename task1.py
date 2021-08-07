@@ -37,4 +37,4 @@ import pybedtools
 CpG_ser = pd.Series(CpG) # CpG series
 CpG_df = pd.DataFrame({'name': 'chr20','start_pos':CpG_ser.index, 'end_pos':CpG_ser.values}) # CpG dataframe
 CpG_bf = pybedtools.BedTool.from_dataframe(CpG_df) # CpG bed format
-print (CpG_bf) # in command line save to CpG_py.bed
+print (CpG_bf) # in command line save as CpG_py.bed
