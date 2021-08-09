@@ -1,3 +1,10 @@
+'''
+definition of CpG islands: 
+regions of DNA with a moving average of %G+C over 50% and Obs/Exp CpG over 0.6 have been classed as CpG-rich regions.
+CpG-rich regions over 200 bp in length are labelled as CpG islands.
+(moving windows: 100 bp (N = 100) moving across the sequence at 1 bp intervals)
+'''
+
 # task1 compare CpG islands
 # read fasta file contained chromosome 20 1:1000000 as chr20
 f=open('chr20_part.fasta')
